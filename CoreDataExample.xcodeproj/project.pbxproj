@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7A680E021B140ED000AE52D /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A680DF21B140ED000AE52D /* UserListViewController.swift */; };
 		B7C6E4B121B0F7C600D1AB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4B021B0F7C600D1AB30 /* AppDelegate.swift */; };
 		B7C6E4B321B0F7C600D1AB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4B221B0F7C600D1AB30 /* ViewController.swift */; };
 		B7C6E4B621B0F7C600D1AB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6E4B421B0F7C600D1AB30 /* Main.storyboard */; };
@@ -15,6 +16,14 @@
 		B7C6E4BE21B0F7C600D1AB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6E4BC21B0F7C600D1AB30 /* LaunchScreen.storyboard */; };
 		B7C6E4C921B0F7C600D1AB30 /* CoreDataExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4C821B0F7C600D1AB30 /* CoreDataExampleTests.swift */; };
 		B7C6E4D421B0F7C600D1AB30 /* CoreDataExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4D321B0F7C600D1AB30 /* CoreDataExampleUITests.swift */; };
+		B7C6E4EB21B10C0D00D1AB30 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4EA21B10C0D00D1AB30 /* CoreDataManager.swift */; };
+		B7C6E4F821B10E5C00D1AB30 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4F421B10E5C00D1AB30 /* User+CoreDataClass.swift */; };
+		B7C6E4F921B10E5C00D1AB30 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4F521B10E5C00D1AB30 /* User+CoreDataProperties.swift */; };
+		B7C6E4FA21B10E5C00D1AB30 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4F621B10E5C00D1AB30 /* Car+CoreDataClass.swift */; };
+		B7C6E4FB21B10E5C00D1AB30 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4F721B10E5C00D1AB30 /* Car+CoreDataProperties.swift */; };
+		B7C6E50221B10F6D00D1AB30 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E50121B10F6D00D1AB30 /* UserModel.swift */; };
+		B7C6E50421B10F7600D1AB30 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E50321B10F7600D1AB30 /* CarModel.swift */; };
+		B7C6E50621B13C5200D1AB30 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E50521B13C5200D1AB30 /* AddCarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7A680DF21B140ED000AE52D /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		B7C6E4AD21B0F7C600D1AB30 /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C6E4B021B0F7C600D1AB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7C6E4B221B0F7C600D1AB30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		B7C6E4CF21B0F7C600D1AB30 /* CoreDataExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C6E4D321B0F7C600D1AB30 /* CoreDataExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExampleUITests.swift; sourceTree = "<group>"; };
 		B7C6E4D521B0F7C600D1AB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C6E4EA21B10C0D00D1AB30 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B7C6E4F421B10E5C00D1AB30 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B7C6E4F521B10E5C00D1AB30 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B7C6E4F621B10E5C00D1AB30 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B7C6E4F721B10E5C00D1AB30 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B7C6E50121B10F6D00D1AB30 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B7C6E50321B10F7600D1AB30 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		B7C6E50521B13C5200D1AB30 /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +117,12 @@
 		B7C6E4AF21B0F7C600D1AB30 /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				B7C6E4FE21B10F3500D1AB30 /* Models */,
+				B7C6E4E121B10A2100D1AB30 /* CoreData Model  */,
 				B7C6E4B021B0F7C600D1AB30 /* AppDelegate.swift */,
 				B7C6E4B221B0F7C600D1AB30 /* ViewController.swift */,
+				B7C6E50521B13C5200D1AB30 /* AddCarViewController.swift */,
+				B7A680DF21B140ED000AE52D /* UserListViewController.swift */,
 				B7C6E4B421B0F7C600D1AB30 /* Main.storyboard */,
 				B7C6E4BA21B0F7C600D1AB30 /* Assets.xcassets */,
 				B7C6E4BC21B0F7C600D1AB30 /* LaunchScreen.storyboard */,
@@ -126,6 +148,27 @@
 				B7C6E4D521B0F7C600D1AB30 /* Info.plist */,
 			);
 			path = CoreDataExampleUITests;
+			sourceTree = "<group>";
+		};
+		B7C6E4E121B10A2100D1AB30 /* CoreData Model  */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6E4F421B10E5C00D1AB30 /* User+CoreDataClass.swift */,
+				B7C6E4F521B10E5C00D1AB30 /* User+CoreDataProperties.swift */,
+				B7C6E4F621B10E5C00D1AB30 /* Car+CoreDataClass.swift */,
+				B7C6E4F721B10E5C00D1AB30 /* Car+CoreDataProperties.swift */,
+				B7C6E4EA21B10C0D00D1AB30 /* CoreDataManager.swift */,
+			);
+			path = "CoreData Model ";
+			sourceTree = "<group>";
+		};
+		B7C6E4FE21B10F3500D1AB30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6E50121B10F6D00D1AB30 /* UserModel.swift */,
+				B7C6E50321B10F7600D1AB30 /* CarModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +302,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C6E4FB21B10E5C00D1AB30 /* Car+CoreDataProperties.swift in Sources */,
 				B7C6E4B321B0F7C600D1AB30 /* ViewController.swift in Sources */,
 				B7C6E4B121B0F7C600D1AB30 /* AppDelegate.swift in Sources */,
+				B7C6E4F921B10E5C00D1AB30 /* User+CoreDataProperties.swift in Sources */,
+				B7C6E4FA21B10E5C00D1AB30 /* Car+CoreDataClass.swift in Sources */,
+				B7A680E021B140ED000AE52D /* UserListViewController.swift in Sources */,
+				B7C6E50621B13C5200D1AB30 /* AddCarViewController.swift in Sources */,
+				B7C6E4EB21B10C0D00D1AB30 /* CoreDataManager.swift in Sources */,
+				B7C6E50421B10F7600D1AB30 /* CarModel.swift in Sources */,
 				B7C6E4B921B0F7C600D1AB30 /* CoreDataExample.xcdatamodeld in Sources */,
+				B7C6E50221B10F6D00D1AB30 /* UserModel.swift in Sources */,
+				B7C6E4F821B10E5C00D1AB30 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
