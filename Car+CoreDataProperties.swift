@@ -2,7 +2,7 @@
 //  Car+CoreDataProperties.swift
 //  CoreDataExample
 //
-//  Created by Mohit Kumar on 30/11/18.
+//  Created by Mohit Kumar on 05/12/18.
 //  Copyright © 2018 Mohit Kumar. All rights reserved.
 //
 //
@@ -17,8 +17,9 @@ extension Car {
         return NSFetchRequest<Car>(entityName: "Car")
     }
 
-    @NSManaged public var year: Int16
+    @NSManaged public var company: String?
     @NSManaged public var model: String?
+    @NSManaged public var year: Int16
     @NSManaged public var user: User?
 
 }

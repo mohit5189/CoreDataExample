@@ -43,11 +43,19 @@ class CoreDataManager: NSObject {
                 
                 car.model = carModel.model ?? ""
                 car.year = carModel.year ?? 0
-                
+                car.company = "Test"
                 user.addToCar(car)
                 
             }
         }
+        
+        let houseEntity = NSEntityDescription.entity(forEntityName: "House", in: self.managedObjectContext!)!
+
+        
+        let house:House = NSManagedObject(entity: houseEntity, insertInto: self.managedObjectContext!) as! House
+        
+        house.address = "xyz"
+        user.addToHouse(house)
         
         do {
             try self.managedObjectContext?.save()
@@ -70,6 +78,7 @@ class CoreDataManager: NSObject {
                 user1.name = (user as! User).name
                 user1.email = (user as! User).email
 
+              
                 for car in ((user as! User).car?.allObjects)!{
                     
                     let car1 = CarModel()
